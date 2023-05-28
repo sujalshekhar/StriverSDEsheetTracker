@@ -1,0 +1,66 @@
+.chekbox {
+  width: 10%;
+  text-align: center;
+  padding: 8px;
+}
+
+tr .star {
+  width: 10%;
+  text-align: center;
+}
+
+.star input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  accent-color: yellow;
+  opacity: 0.8;
+}
+
+.qn-row {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.qn-row:nth-of-type(2n) {
+  background-color: var(--table-even-color);
+}
+
+.qn-row:hover {
+  background-color: var(--table-hover);
+}
+
+tr:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chekbox input {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  accent-color: blue;
+  background-color: var(--checkbox);
+  opacity: 0.8;
+}
+
+.checkbox input:checked::before {
+  background-color: blue !important;
+}
+
+.qn {
+  width: 50%;
+  padding: 5px 10px;
+  color: var(--font);
+}
+
+.edit-notes {
+  width: 5%;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .qn {
+    min-width: 50%;
+  }
+}

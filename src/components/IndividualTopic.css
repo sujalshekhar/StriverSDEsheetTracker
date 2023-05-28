@@ -1,0 +1,51 @@
+.individual-topic-main {
+  background-color: var(--bg);
+  margin: 10px 0;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.individual-topic-main:hover {
+  transform: scale(1.02);
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-progress {
+  width: 90%;
+}
+
+.individual-topic {
+  width: 300px;
+  font-size: 20px;
+  margin: 20px 20px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8ec3b0 !important;
+}
+
+.individual-topic-main h4 {
+  margin: 5px 10px;
+  color: #649485;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .individual-topic-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .individual-topic {
+    width: 300px;
+  }
+}

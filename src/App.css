@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-dark-shade);
+  min-height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 100vw;
+  }
+}
+

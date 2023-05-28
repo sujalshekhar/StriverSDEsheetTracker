@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Chakra+Petch:wght@300;400;500;600;700&family=Exo+2:ital,wght@0,300;0,500;0,700;0,800;1,300;1,500;1,700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins'
+}
+
+.light {
+  --bg : #E6FFFD;
+  --bg-dark-shade : #AEE2FF;
+  --font : black;
+  --modal-bg: #E6FFFD;
+  --button : #ca3d3d;
+  --button-2 : #3C486B;
+  --star-button : #51608e;
+  --star-button-hover : #6173a9;
+  --button-2-hover : #566595;
+  --progress-bar-color-main : #AEE2FF;
+  --progress-bar-trail-color : white;
+  --header : black;
+  --footer : #3C486B;
+  --bg-gradient : linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+  --overlay : rgba(255, 255, 255, 0.1);
+  --font-color-1 : #171b21;
+  --table-color : #E6FFFD;
+  --table-hover : #9ED5C5;
+  --table-even-color : #d5fcf9;
+  --table-header : #2b89bc;
+  --shadow-1 : rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.dark {
+  --bg : rgba(255, 255, 255, 0.02);
+  --modal-bg : #212121;
+  --bg-dark-shade : #121212;
+  --footer : rgba(255, 255, 255, 0.02);
+  --font : rgba(255, 255, 255, 0.8);
+  --progress-bar-color-main : #212121;
+  --progress-bar-trail-color : rgba(255, 255, 255, 0.05);
+  --header : rgba(255, 255, 255, 0.8);
+  --table-color : #151515;
+  --table-even-color : #181818;
+  --table-hover : #202020;
+  --table-header : #212121;
+  --table-border : rgba(255, 255, 255, 0.8);
+  --checkbox : rgba(255, 255, 255, 0.2);
+  --bg-gradient : linear-gradient(90deg, rgba(18,18,18,1) 0%, rgba(21,21,21,1) 47%, rgba(24,24,24,1) 100%);
+  --overlay : rgba(0, 0, 0, 0.1);
+  --font-color-1 : #b0cdee;
+  --shadow-1 : rgba(75, 75, 73, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.github-button {
+  padding: 10px 20px;
+  font-size: large;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: var(--star-button);
+  transition: transform 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+
+.github-button:hover {
+  background-color: var(--star-button-hover);
+  transform: scale(1.1);
+}
+
+.topic-heading-link:hover {
+  opacity: 0.8;
+}
+
+.github-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+  color: #121b25;
+}
+
+@media (max-width: 700px) {
+  .stats-div {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .hello {
+    font-size: 10px;
+    color: white;
+  }
+}
+
+
